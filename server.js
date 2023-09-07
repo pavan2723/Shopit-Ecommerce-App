@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-mongoose.connect("mongodb+srv://atlaspavan:atlaspavan@cluster0.ryhnvki.mongodb.net/ecommerce?retryWrites=true&w=majority").then(()=>console.log("DB Connected successfully...")).catch((err)=>console.log(err));
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.ryhnvki.mongodb.net/ecommerce?retryWrites=true&w=majority").then(()=>console.log("DB Connected successfully...")).catch((err)=>console.log(err));
 
 
 app.use("/user",UserRoute);
