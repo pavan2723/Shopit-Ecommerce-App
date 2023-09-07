@@ -18,4 +18,3 @@ app.listen(5001,()=>{
 })
 
 
-//mongodb+srv://atlaspavan:<password>@cluster0.ryhnvki.mongodb.net/?retryWrites=true&w=majority
